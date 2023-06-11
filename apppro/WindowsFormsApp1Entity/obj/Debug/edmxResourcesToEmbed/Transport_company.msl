@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Transport_companyModelContainer" CdmEntityContainer="Transport_companyEntities">
+    <EntitySetMapping Name="Водитель">
+      <EntityTypeMapping TypeName="Transport_companyModel.Водитель">
+        <MappingFragment StoreEntitySet="Водитель">
+          <ScalarProperty Name="Код_водителя" ColumnName="Код_водителя" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="Возраст" ColumnName="Возраст" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Клиент">
+      <EntityTypeMapping TypeName="Transport_companyModel.Клиент">
+        <MappingFragment StoreEntitySet="Клиент">
+          <ScalarProperty Name="Код_клиента" ColumnName="Код_клиента" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="Возраст" ColumnName="Возраст" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Транспорт">
+      <EntityTypeMapping TypeName="Transport_companyModel.Транспорт">
+        <MappingFragment StoreEntitySet="Транспорт">
+          <ScalarProperty Name="Код_транспорта" ColumnName="Код_транспорта" />
+          <ScalarProperty Name="Марка" ColumnName="Марка" />
+          <ScalarProperty Name="Грузоподъемность" ColumnName="Грузоподъемность" />
+          <ScalarProperty Name="Стоимость" ColumnName="Стоимость" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
